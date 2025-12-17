@@ -11,7 +11,7 @@ int main (){
         else if(a>1.0&&(f>30&&f<60)){
                 printf("High Risk");
         }
-        else if(a>1||f>70){
+        else if(a>1.0||f>70){
                 printf("Medium Risk");
         }
         else printf("Low Risk");
